@@ -5,7 +5,7 @@ public class Main {
       RWOnly obj = new RWOnly();
 
       //'name' has private access in 'com.driver.RWOnly'
-      obj.name = "Encapsulation Assignment";
+      //obj.name = "Encapsulation Assignment";
 
       obj.setName("Use of Setter to access private member");
       System.out.println(obj.getName());
